@@ -10,31 +10,31 @@
     <meta name="keywords" content="HTML, Student Examples, Images">
     
     <style>
-        #multi_background {
-            background-image: url(elementarystudent.png), url(student.jpg);
+        body {
+            background-image: url(elementarystudent.png), url(student.jpg), linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
             background-position: left bottom, right top;
-            background-repeat: no-repeat, no-repeat;
+            background-repeat: no-repeat, no-repeat, cover;
         }
     </style>
 </head>
 
-<body style="background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);">
-    <div id="multi_background">
-            <h1 style="text-align:center; color:blue;">Dogpatch Elementary School</h1>
-            <p>Dogpatch School provides a comprehensive curriculum that stresses academic excellence for our diverse student population.<br>
-                We are a neighborhood school in the Dogpatch area serving the community since 2020.<br>
-                In addition to general education students,<br>
-                there are students representing 23 language groups as well as students with special needs.<br>
-                We are also one of the magnet schools for pre-k through fifth grade hearing impaired students.</p>
+<body>
+    <article>
+        <h1 style="text-align:center; color:blue;">Dogpatch Elementary School</h1>
+        <p>Dogpatch School provides a comprehensive curriculum that stresses academic excellence for our diverse student population.<br>
+            We are a neighborhood school in the Dogpatch area serving the community since 2020.<br>
+            In addition to general education students,<br>
+            there are students representing 23 language groups as well as students with special needs.<br>
+            We are also one of the magnet schools for pre-k through fifth grade hearing impaired students.</p>
 
-            <figure>
-                <img src="elementary.jpg" alt="Students of Dogpatch Elementary School raising hands to answer question" width="450" height="450">
-                <figcaption>Students of Dogpatch Elementary School</figcaption>
-            </figure>
+        <figure>
+            <img src="elementary.jpg" alt="Students of Dogpatch Elementary School raising hands to answer question" width="450" height="450">
+            <figcaption>Students of Dogpatch Elementary School</figcaption>
+        </figure>
+    </article>
 
         <footer style="text-align: center; position: fixed; bottom: 0; left: 0; width: 100%;">
             <a href="assignments.html">Back to Assignments</a>
         </footer>
-    </div>
 </body>
 
