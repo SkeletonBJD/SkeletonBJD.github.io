@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Date of creation: Apr 10,2021-->
+<!-- Created by: Steven Li-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>CNIT132 Contacts</title>
+    <meta name="description" content="CNIT132 HW2">
+    <meta name="author" content="Steven Li">
+    <meta name="keywords" content="HTML, Homework, Examples, Contact Page, forms">
+    <link rel="stylesheet" href="homework1external.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<style>
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        background-color: #dd8d2c;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #9c5e12;
+    }
+    .containter {
+        border-radius: 5px;
+        background-color: bisque;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item grid-header">
+            <h1>Contact Me</h1>
+        </div>
+    
+        <div class="grid-item grid-menu">
+            <div class="sidenav">
+                <a href="homework1.html">Home</a>
+                <a href="assignments.html">Assignments</a>
+                <a href="#">Meetup</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+
+        <div class="grid-item content">
+            <p>if you wish to contact me, please feel free to utilize the form below.</p>
+            <div class="container">
+                <form action="mailto:zilianglit20@gmail.com" method="POST" ectype="text/plain" name="Name">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name" placeholder="your name here.." required>
+
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="Email" placeholder="your email address here.." required>
+
+                    <label for="comments">Your Comments</label>
+                    <textarea id="comments" name="Comments" placeholder="How can I do better?" style="height: 200px;"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="grid-item grid-footer">
+            <p>All credits to Steven Li </p>
+            <a href="mailto:zilianglit20@gmail.com">Email me!</a>
+        </div>
+
+    </div>
+</body>
