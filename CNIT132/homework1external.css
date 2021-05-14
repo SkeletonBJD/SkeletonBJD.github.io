@@ -28,6 +28,7 @@
         text-align: center;
     }
 
+
     .grid-header {
         grid-column: 1 / span 4;
         grid-row: 1;
